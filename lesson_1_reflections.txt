@@ -1,0 +1,30 @@
+How did viewing a diff between two versions help me spot the bug?
+	- Using diff displays what's been added/removed between the old and new file. Because of that I was able to easily spot the differences and even catch a typo in the process.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+- Having easy access to the entire history of a file makes me an efficient programmer in the long term because I can easily view the adjustments I've made. That way if I ever have to go back to it, I can easily access it. It also saves me time and prevents me from opening multiple files at the same time and seeing what the differences are myself.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+- The pro of manually choosing when to commit is its flexibility and how it tailors to a programmer. For example, on my project I may commit something that I find important - so long as I properly follow the rule of using one commit per logical change. 
+- The con of course is that it can result in user error on any one's part. If one forgets to commit, the next commit will either be too little or too large!
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+- Git allows multiple files in one commit because the files go hand in hand in terms of functonality. For example, an html and css file go hand in hand when it comes to functionality - hence it's so important to be able to save these files under one commit
+
+How can you use the commands git log and git diff to view the history of files?
+- git log allows me to view the commit history. The top starts off with the commit ID, followed by a message below
+- if i'm interested in seeing the difference between two commits in my repository, then I can use the git diff command and enter the two commit IDs. from there it will give me statistics on what has changed so far
+- another useful command to see how many lines were added/deleted is the 'git log --stat' command. Like the git log command, there's goes a step further and provides useful statistics that are in each commit
+
+
+How might using version control make you more confident to make changes that could break something?
+- Using version control makes me more confident to make changes to code as a programmer because I know I can always revert back to changes in case my code leads to a bug in the overall execution of whatever I'm trying to do. In addition, I can always use the git diff command to always display to me the differences between commits which is an amazing feature of version control
+
+
+
+
+
+
+
