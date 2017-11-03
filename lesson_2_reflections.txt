@@ -3,3 +3,61 @@ What happens when you initialize a repository? Why do you need to do it?
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 - the staging area is basically telling git that I'm now ready to make a commit and I've decided to add the appropriate files that's logically appropriate to add
+
+How can you use the staging area to make sure you have one commit per logical change?
+- I can use the staging area to make sure I have one commit per logical change by using the git diff command to compare the working directory and staging area. I can also use the git diff --staged command to compare what's in my staging area to my most recent commit in the repository
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+- the best time to create a branch is also when creating new features or discovering a bug and would like to create a separate branch for it
+- The master branch is the one that always works - it never breaks
+- The other branches can be used to develop the app further - like a branch for fixing a bug, creating a new feature, etc.
+- it's when I expect that the code isn't expected to fully work and isn't ready for production AT ALL
+- it also gives me the option to easily switch between the work I'm doing now versus something else. For example if I'm currently working on a new feature for a few hours, then decide to save the work and fix a bug instead, it can easily switch to the branch with the bug and start fixing that =]
+
+How do the diagrams help you visualize the branch structure?
+- When it comes to a git repository, things can easily get out of hand when branches come into the picture. In order to organize the entire structure of an important project that's in a repository, it's a MUST to have a visual outlook of the repository especially when switching branches 
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+- The result of merging two branches together is: a) existing content in one branch will now appear in the branch it merged into, b) when using the 'git log' command I'll be able to see the log of the commits made from the other branch. 
+- The reason for representing it in the diagram is to logically explain how a branch merges into another branch. The purpoe of the diagram is to make the concept of branch merging crystal clear.
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+- The pros of automatic merging is that it makes my life simple as a programmer and not having to worry about any errors and etc. 
+- The con of course is that automatic merging may lead to bugs and confusion as to why my code isn't functioning correct
+
+- the pro of manual merging is that I'm always in control as a programmer and if git isn't sure what it's doing while merging, I can always open the file it references, fix the bugs then be sure the code from one branch has now successfully merged into the current branch.
+- the con - anything manual means that it will take a little bit of time to figure out
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
