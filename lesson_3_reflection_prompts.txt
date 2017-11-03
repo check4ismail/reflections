@@ -1,0 +1,2 @@
+When would you want to use a remote repository rather than keeping all your work local?
+- The remote repository is an excellent method for companies to create private repositories, which makes work flow seamless for developers/programmers. In addition it's a great way to ensure work is saved rather than just keeping the entire repository on the local machine.
